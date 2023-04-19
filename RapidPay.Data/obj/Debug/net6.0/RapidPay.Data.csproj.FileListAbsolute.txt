@@ -1,0 +1,12 @@
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\bin\Debug\net6.0\RapidPay.Data.deps.json
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\bin\Debug\net6.0\RapidPay.Data.dll
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\bin\Debug\net6.0\RapidPay.Data.pdb
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\obj\Debug\net6.0\RapidPay.Data.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\obj\Debug\net6.0\RapidPay.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\obj\Debug\net6.0\RapidPay.Data.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\obj\Debug\net6.0\RapidPay.Data.AssemblyInfo.cs
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\obj\Debug\net6.0\RapidPay.Data.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\obj\Debug\net6.0\RapidPay.Data.dll
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\obj\Debug\net6.0\refint\RapidPay.Data.dll
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\obj\Debug\net6.0\RapidPay.Data.pdb
+C:\Users\Usuario\Documents\RapidPay.API\RapidPay.Data\obj\Debug\net6.0\ref\RapidPay.Data.dll
