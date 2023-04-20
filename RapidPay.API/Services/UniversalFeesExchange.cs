@@ -4,9 +4,11 @@
     {
         private static UniversalFeesExchange _instance;
         private decimal _lastFee;
+        private int? _lastHour;
 
         private UniversalFeesExchange()
         {
+            _lastHour = null; 
             _lastFee = 1;
         }
 
@@ -29,12 +31,29 @@
             return randomDecimal;
         }
 
+        private bool IsNewFeeNeeded(int hour)
+        {
+            if (_lastHour != hour)
+            {
+                _lastHour = hour;
+                return true;
+            }
+
+            return _lastHour != hour;
+        }
+
         public decimal GetNewFee()
         {
-            decimal randomDecimal = GetRandomDecimal();
-            decimal newFee = Math.Round(_lastFee * randomDecimal);
-            _lastFee = newFee;
-            return newFee;
+            var IsNewFeeNeeded = this.IsNewFeeNeeded(DateTime.UtcNow.Hour);
+            if (IsNewFeeNeeded)
+            {
+                decimal randomDecimal = GetRandomDecimal();
+                decimal newFee = Math.Round(_lastFee * randomDecimal);
+                _lastFee = newFee;
+                return newFee;
+            }
+
+            return _lastFee;
         }
     }
 }
